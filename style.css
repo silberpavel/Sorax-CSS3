@@ -18,6 +18,99 @@ body {
     /* text-shadow: x-margin y-margin blur color*/
 }
 
+.background-test {
+    background-color: rgba(137, 43, 226, 0.466);
+    width: 700px;
+    height: 300px;
+    border: 3px solid #999;
+    margin: 20px;
+
+    background-image: url(http://www.firmasec.com/resim/6/kanguru-evden-eve-nakliyat-firma-logosu-kangaroo-xxl-cdd5824b928-ctzzyr.png),url(img/circles.png);
+    background-repeat: no-repeat, repeat; /* first img or color, second img*/
+    background-position: 40px 100px; /* upDown rightLeft or center*/
+
+    background-attachment: fixed;  /* parallax */
+
+    /* width height */
+    /* background-size: 20%;  */
+
+    /* full frame image*/
+    /* background-size: contain;  */
+
+    background-size: 25%, 200px;
+}
+
+
+.triangle1 {
+    margin: 30px;
+    width: 0;
+    height: 0;
+    border-bottom:  100px solid black;
+    border-left:  50px solid rgba(0, 0, 0, 0.589);
+    border-right:  50px solid rgba(0, 0, 0, 0.116);
+
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+/* triangle down*/
+/* .triangle2 {     
+    margin: 30px;
+    width: 0;
+    height: 0;
+    border-top:  100px solid black;
+    border-left:  50px solid rgba(0, 0, 0, 0);
+    border-right:  50px solid rgba(0, 0, 0, 0);
+} */
+
+.tooltip {
+    width: 150px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.5);
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    position: relative;
+}
+
+.tooltip:after {
+    content: '';
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgba(0, 0, 0, 0.5);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-left: 10px solid rgba(0, 0, 0, 0);
+
+    bottom: -10px;
+    left: 65px;
+}
+
+.container-border-test {
+    padding: 50px;
+    text-transform: capitalize;
+    font-size: 2.2em;
+    letter-spacing: 15px;
+    line-height: 40px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background: rgb(129, 126, 126);
+
+    border: 15px solid #000;  /* width style color*/
+    border-bottom: 15px solid rgb(212, 34, 11);
+    border-right: 15px solid rgb(209, 206, 12);
+
+    border-radius: 20px 10px 30px 50px; /* CSS3 */
+    border-bottom-right-radius:  180px 60px;
+
+    /* border-radius: 50%; */  /* Circle, also we can use with images*/
+}
+
 .container1 {
     background: rgba(39, 140, 170, 0.411);
     width: 600px;
@@ -60,3 +153,4 @@ body {
     position: fixed;
     z-index: 999;
 }
+
