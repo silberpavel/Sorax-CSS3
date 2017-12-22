@@ -1,3 +1,60 @@
 body {
     background: rgb(145, 175, 204);
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;  /* 120% */
+    font-weight: 600; /* 100 200 ... 800 900 bold*/
+    font-style: italic;
+    /* font-variant: small-caps; */
+    /* text-decoration: overline; overline */
+    /* text-transform: capitalize; */
+    /* text-align: justify; */
+    /* text-indent: 30px; */
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 0 #eee, 1px 1px 1px #000;
+    /* text-shadow: x-margin y-margin blur color*/
+}
+
+.container1 {
+    background: rgba(119, 211, 83, 0.596);
+    width: 800px;
+    height: 400px;
+    margin: 20px auto; /* 2-> upDown leftRight, 4-> up right down left */
+    /* display: inline-block; */
+    display: block;
+    min-width: 300px;
+    max-width: 800px;
+    position: relative;
+}
+.container2 {
+    background: rgba(96, 206, 53, 0.596);
+    width: 800px;
+    height: 300px;
+    margin: 20px auto; /* 2-> upDown leftRight, 4-> up right down left */
+    /* display: inline-block; */
+    display: block;
+    min-width: 300px;
+    max-width: 800px;
+    position: relative;
+    overflow: auto; /*hidden scroll auto  overflow-x overflow-y*/
+    /* display: none; */
+}
+
+.container-inner-absolute {
+    background: rgb(82, 76, 76);
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: -35px;
+}
+.container-inner-fixed {
+    background: rgba(151, 65, 65, 0.767);
+    width: 200px;
+    height: 50px;
+    margin: 20px -20px;
+    position: fixed;
+    z-index: 999;
 }
