@@ -1,5 +1,7 @@
 body {
-    background: rgb(145, 175, 204);
+    /* background: rgb(145, 175, 204); */
+    background-color: rgba(209, 130, 28, 0.596);
+    color: rgba(19, 2, 2, 0.5);  /* CSS3 */
     font-family: "PT Sans", Arial, Helvetica, sans-serif;
     font-size: 1.2em;  /* 120% */
     font-weight: 600; /* 100 200 ... 800 900 bold*/
@@ -17,8 +19,8 @@ body {
 }
 
 .container1 {
-    background: rgba(119, 211, 83, 0.596);
-    width: 800px;
+    background: rgba(39, 140, 170, 0.411);
+    width: 600px;
     height: 400px;
     margin: 20px auto; /* 2-> upDown leftRight, 4-> up right down left */
     /* display: inline-block; */
@@ -28,8 +30,8 @@ body {
     position: relative;
 }
 .container2 {
-    background: rgba(96, 206, 53, 0.596);
-    width: 800px;
+    background: rgba(218, 54, 149, 0.596);
+    width: 500px;
     height: 300px;
     margin: 20px auto; /* 2-> upDown leftRight, 4-> up right down left */
     /* display: inline-block; */
